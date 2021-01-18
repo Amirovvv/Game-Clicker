@@ -1,5 +1,5 @@
 html {
-   font-family: 'Press Start 2P';
+   font-family: "Press Start 2P", monospace;
    font-size: 2rem;
 }
 
@@ -27,7 +27,7 @@ main {
    --shadow-color: rgb(112, 20, 20);
 
    position: relative;
-   font-size: .75rem;
+   font-size: 0.75rem;
    width: 200px;
    height: 75px;
    max-width: 100%;
@@ -38,49 +38,31 @@ main {
    cursor: pointer;
    outline: none;
    color: white;
-   font-family: 'Press Start 2P', monospace;
+   font-family: "Press Start 2P", monospace;
    font-weight: bold;
    background-color: var(--color);
-   box-shadow: 0 -3px var(--color),
-               3px 0 var(--color),
-               0 3px var(--color),
-               -3px 0 var(--color),
-               0 -6px var(--border-color),
-               3px -3px var(--border-color),
-               6px 0 var(--border-color),
-               0 6px var(--border-color),
-               -3px 3px var(--border-color),
-               -6px 0 var(--border-color),
-               -3px -3px var(--border-color),
-               3px 3px var(--border-color),
-               0px 9px var(--shadow-color),
-               3px 6px var(--shadow-color),
-               6px 3px var(--shadow-color),
-               0px 9px var(--shadow-color),
-               -3px 6px var(--shadow-color),
-               -6px 3px var(--shadow-color);
+   box-shadow: 0 -3px var(--color), 3px 0 var(--color), 0 3px var(--color),
+      -3px 0 var(--color), 0 -6px var(--border-color),
+      3px -3px var(--border-color), 6px 0 var(--border-color),
+      0 6px var(--border-color), -3px 3px var(--border-color),
+      -6px 0 var(--border-color), -3px -3px var(--border-color),
+      3px 3px var(--border-color), 0px 9px var(--shadow-color),
+      3px 6px var(--shadow-color), 6px 3px var(--shadow-color),
+      0px 9px var(--shadow-color), -3px 6px var(--shadow-color),
+      -6px 3px var(--shadow-color);
 }
 
 #button:active {
    top: 6px;
-  box-shadow: 0 -3px var(--color),
-               3px 0 var(--color),
-               0 3px var(--color),
-               -3px 0 var(--color),
-               0 -6px var(--border-color),
-               3px -3px var(--border-color),
-               6px 0 var(--border-color),
-               0 6px var(--border-color),
-               -3px 3px var(--border-color),
-               -6px 0 var(--border-color),
-               -3px -3px var(--border-color),
-               3px 3px var(--border-color),
-               0px 6px var(--shadow-color),
-               3px 3px var(--shadow-color),
-               6px 0px var(--shadow-color),
-               0px 6px var(--shadow-color),
-               -3px 3px var(--shadow-color),
-               -6px 0px var(--shadow-color);
+   box-shadow: 0 -3px var(--color), 3px 0 var(--color), 0 3px var(--color),
+      -3px 0 var(--color), 0 -6px var(--border-color),
+      3px -3px var(--border-color), 6px 0 var(--border-color),
+      0 6px var(--border-color), -3px 3px var(--border-color),
+      -6px 0 var(--border-color), -3px -3px var(--border-color),
+      3px 3px var(--border-color), 0px 6px var(--shadow-color),
+      3px 3px var(--shadow-color), 6px 0px var(--shadow-color),
+      0px 6px var(--shadow-color), -3px 3px var(--shadow-color),
+      -6px 0px var(--shadow-color);
 }
 
 #display,
